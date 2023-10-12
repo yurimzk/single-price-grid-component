@@ -10,6 +10,7 @@
     --cyan: hsl(179, 62%, 43%);
     --light-cyan: hsl(179, 62%, 48%);
     --bright-yellow: hsl(71, 73%, 54%);
+    --bright-yellow-hover: hsl(71, 61%, 40%);
 
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(204, 43%, 93%);
@@ -100,6 +101,11 @@ h3 {
     padding: 1.6rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 1.2rem;
+}
+
+.btn-sign:hover {
+    background-color: var(--bright-yellow-hover);
+    border: 1px solid var(--bright-yellow-hover);
 }
 
 .footer {
