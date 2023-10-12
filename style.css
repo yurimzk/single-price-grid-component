@@ -23,22 +23,53 @@ body {
 
 #app {
     background-color: var(--light-gray);
-    padding: 4.0rem 2.4rem;
+    padding: 4.0rem 1.6rem;
     height: 100vh;
 }
 
-h2 {
+h3 {
     font-weight: 700;
+}
+
+.card {
+    padding: 2.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
 }
 
 .community {
     background-color: var(--white);
 }
 
+.community h3 {
+    color: var(--cyan);
+}
+
+.community :nth-child(2) {
+    color: var(--bright-yellow);
+    font-weight: 700;
+}
+
+.community :nth-child(3) {
+    color: var(--grayish-glue);
+    line-height: 160%;
+    font-size: 1.5rem;
+}
+
 .subscription {
     background-color: var(--cyan);
 }
 
+.subscription .price {
+    display: flex;
+    gap: 2.0rem;
+}
+
 .footer {
     background-color: var(--light-cyan);
+}
+
+.footer li {
+    list-style: none;
 }
