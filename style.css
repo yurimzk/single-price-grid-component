@@ -35,7 +35,7 @@ h3 {
     padding: 2.0rem;
     display: flex;
     flex-direction: column;
-    gap: 2.0rem;
+    gap: 2.4rem;
 }
 
 .community {
@@ -73,7 +73,6 @@ h3 {
 }
 
 .subscription p {
-    margin-top: -1.2rem;
     color: var(--light-gray);
 }
 
@@ -85,6 +84,19 @@ h3 {
 
 .price :nth-child(2) {
     color: var(--light-gray);
+}
+
+.btn-sign {
+    background-color: var(--bright-yellow);
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border: 1px solid var(--bright-yellow);
+    border-radius: .8rem;
+    padding: 1.6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 1.2rem;
 }
 
 .footer {
