@@ -13,7 +13,7 @@
 
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(204, 43%, 93%);
-    --grayish-glue: hsl(218, 22%, 67%);
+    --grayish-blue: hsl(218, 22%, 67%);
 }
 
 body {
@@ -52,7 +52,7 @@ h3 {
 }
 
 .community :nth-child(3) {
-    color: var(--grayish-glue);
+    color: var(--grayish-blue);
     line-height: 160%;
     font-size: 1.5rem;
 }
@@ -61,9 +61,30 @@ h3 {
     background-color: var(--cyan);
 }
 
+.subscription h3 {
+    color: var(--light-gray);
+    letter-spacing: .1rem;
+}
+
 .subscription .price {
     display: flex;
-    gap: 2.0rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.subscription p {
+    margin-top: -1.2rem;
+    color: var(--light-gray);
+}
+
+.price :nth-child(1) {
+    color: var(--light-gray);
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.price :nth-child(2) {
+    color: var(--light-gray);
 }
 
 .footer {
