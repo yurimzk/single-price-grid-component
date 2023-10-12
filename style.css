@@ -70,6 +70,12 @@ h3 {
     background-color: var(--light-cyan);
 }
 
+.footer h3 {
+    color: var(--light-gray);
+}
+
 .footer li {
     list-style: none;
+    color: var(--light-gray);
+    line-height: 140%;
 }
