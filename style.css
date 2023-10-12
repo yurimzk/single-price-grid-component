@@ -32,10 +32,10 @@ h3 {
 }
 
 .card {
-    padding: 2.0rem;
+    padding: 2.8rem 2.4rem;
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 2.0rem;
 }
 
 .community {
