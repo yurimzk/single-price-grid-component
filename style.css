@@ -40,6 +40,9 @@ h3 {
 
 .community {
     background-color: var(--white);
+
+    border-top-right-radius: .8rem;
+    border-top-left-radius: .8rem;
 }
 
 .community h3 {
@@ -101,6 +104,9 @@ h3 {
 
 .footer {
     background-color: var(--light-cyan);
+
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
 }
 
 .footer h3 {
