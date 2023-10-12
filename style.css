@@ -6,8 +6,15 @@
 
 :root {
     font-size: 62.5%;
+
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-glue: hsl(218, 22%, 67%);
 }
 
 body {
     font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
 }
