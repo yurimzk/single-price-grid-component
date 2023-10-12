@@ -8,8 +8,10 @@
     font-size: 62.5%;
 
     --cyan: hsl(179, 62%, 43%);
+    --light-cyan: hsl(179, 62%, 48%);
     --bright-yellow: hsl(71, 73%, 54%);
 
+    --white: hsl(0, 0%, 100%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-glue: hsl(218, 22%, 67%);
 }
@@ -17,4 +19,26 @@
 body {
     font-family: 'Karla', sans-serif;
     font-size: 1.6rem;
+}
+
+#app {
+    background-color: var(--light-gray);
+    padding: 4.0rem 2.4rem;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.community {
+    background-color: var(--white);
+}
+
+.subscription {
+    background-color: var(--cyan);
+}
+
+.footer {
+    background-color: var(--light-cyan);
 }
