@@ -130,10 +130,23 @@ h3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-content: center;
-        padding: 32.0rem
+        padding: 40.0rem
     }
 
     .community {
         grid-column: 1 / span 2;
+    }
+
+    .subscription {
+        border-bottom-left-radius: .8rem;
+    }
+
+    .footer {
+        border-bottom-left-radius: 0;
+    }
+
+    .card {
+        gap: 2.4rem;
+        padding: 2.4rem 4.8rem;
     }
 }
